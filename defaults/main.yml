@@ -1,7 +1,7 @@
 ---
 # defaults file for mysql-backups3
 local_backup_dir: /mysql-backups3
-environment: test
+env: test
 bucket_name: mybucket
 db_name: database
 mysql_user: user
