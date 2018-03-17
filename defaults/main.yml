@@ -3,12 +3,8 @@
 local_backup_dir: /mysql-backups3
 environment: test
 bucket_name: mybucket
-paths_to_backup:
-  path1:
-    path: /var/www
-    tag: www
-  path2:
-    path: /var/test_backup
-    tag: test
+db_name: database
+mysql_user: user
+mysql_password: password
 aws_access_key: aws_access_key
 aws_secret_key: aws_secret_key
